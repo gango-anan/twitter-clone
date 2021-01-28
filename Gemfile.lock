@@ -70,6 +70,8 @@ GEM
     bootsnap (1.6.0)
       msgpack (~> 1.0)
     builder (3.2.4)
+    bulma-rails (0.9.1)
+      sassc (~> 2.0)
     byebug (11.1.3)
     capybara (3.35.1)
       addressable
@@ -197,6 +199,9 @@ GEM
       rubyzip (>= 1.2.2)
     semantic_range (2.3.1)
     shellany (0.0.1)
+    simple_form (5.0.3)
+      actionpack (>= 5.0)
+      activemodel (>= 5.0)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -241,6 +246,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors (~> 2.9, >= 2.9.1)
   bootsnap (>= 1.4.4)
+  bulma-rails (~> 0.9.1)
   byebug
   capybara (>= 3.26)
   guard (~> 2.16, >= 2.16.2)
@@ -251,6 +257,7 @@ DEPENDENCIES
   rails (~> 6.1.1)
   sass-rails (>= 6)
   selenium-webdriver
+  simple_form (~> 5.0, >= 5.0.3)
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
